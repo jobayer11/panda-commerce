@@ -1,0 +1,128 @@
+/*header start*/
+.menu{}
+.menu li a{
+	font-size: 18px;
+	font-weight: 700;
+	color: #000000 !important;
+}
+.menu li a:hover{
+	color: #FF2178 !important;
+}
+/*header end*/
+
+/*slider start*/
+.slider{
+	padding: 50px 0;
+}
+.f_slider{
+	background-color: #FEEAE9;
+	border-radius: 10px;
+}
+.c_carousel-item{
+	padding: 20px 40px;
+}
+.s_t_content{
+
+}
+.s_t_content h2{
+	color: #FF136F;
+}
+.b_button{
+	margin-top: 10px;
+	padding: 10px 25px;
+	background-image: linear-gradient(45deg, #FB8FB8 0%, #FF136F 75%);
+	border-radius: 7px;
+	color: #fff;
+	border: none;
+}
+.b_button:focus{
+	outline: none;
+	box-shadow: none;
+}
+.s_img{
+	margin-left: 15px;
+}
+.slider_button{
+	left: -60px;
+}
+.slider_button2{
+	right: -60px;
+}
+.f_mod{
+	font-size: 50px;
+}
+/*slider end*/
+/*collection section start*/
+.collection{
+	padding: 50px 0;
+}
+.watch, .bag, .shoes{
+	padding: 10px 30px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.watch{
+	background-color: #FFA500;
+}
+.bag{
+	background-color: #DA70D6;
+}
+.shoes{
+	background-color: #0000FF;
+}
+.collection_h{
+	color: #fff !important;
+}
+/*collection section end*/
+/*shoes-item section start*/
+.shoes-item{
+	padding: 50px 0;
+}
+.c_card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0 lightgrey;
+}
+/*shoes-item section end*/
+/*bag-item section start*/
+.bag-item{
+	padding: 50px 0;
+}
+.c_card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0 lightgrey;
+}
+/*bag-item section end*/
+/*contact section start*/
+.contact{
+	padding: 50px 0;
+}
+.contact_bg {
+    background-color: #FEEAE9;
+    border-radius: 10px;
+    padding: 100px 30px 120px;
+}
+.email_field{
+	padding: 10px 10px;
+    width: 355px;
+    height: 45px;
+    border: 1px solid #FF136F;
+}
+.email_field:focus{
+	outline: 0;
+	box-shadow: none;
+	border-color: #FF136F;
+}
+.b_btn_contact{
+	margin-top: 0;
+}
+/*contact section end*/
+/*footer start*/
+h6{
+	letter-spacing: 2px;
+}
+.d_name:hover{
+	color: #FF2178;
+}
+/*footer end*/

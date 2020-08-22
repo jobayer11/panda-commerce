@@ -1,0 +1,168 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header start*/
+	.b_outline:focus{
+		outline: none;
+	}
+	.menu{
+		text-align: right;
+	}
+	/*header end*/
+	/*slider start*/
+	.slider{
+		padding: 20px 0;
+	}
+	.f_slider{
+		margin: 25px 0;
+	}
+	.s_t_content {
+    	text-align: center;
+	}
+	.s_t_content h1{
+    	font-size: 30px;
+	}
+	.slider_button{
+		left: 0px;
+	}
+	.slider_button2{
+		right: 0px;
+	}
+	/*slider end*/
+	/*collection section start*/
+	.collection{
+		padding: 20px 0;
+	}
+	.watch {
+    	margin-bottom: 15px;
+	}
+	.bag {
+    	margin-bottom: 15px;
+	}
+	/*collection section end*/
+	/*shoes-item section start*/
+	.shoes-item{
+		padding: 20px 0;
+	}
+	.c_card {
+    	margin: 10px 0;
+	}
+	/*shoes-item section end*/
+	/*bag-item section start*/
+	.bag-item{
+		padding: 20px 0;
+	}
+	/*bag-item section end*/
+	/*contact section start*/
+	.contact_bg{
+		padding: 60px 30px 80px;
+	}
+	.c_content h3{
+		font-size: 1.45rem;
+	}
+	.email_field {
+    	width: 100%;
+    	margin: 15px 0; 
+	}
+	/*contact section end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+	.b_outline:focus{
+		outline: none;
+	}
+	.menu{
+		text-align: right;
+	}
+	/*header end*/
+	/*slider start*/
+	.slider{
+		padding: 30px 0;
+	}
+	.f_slider{
+		margin: 40px 0;
+	}
+	.s_t_content {
+    	text-align: center;
+	}
+	.s_t_content h1{
+    	text-align: center;
+	}
+		.slider_button{
+		left: -25px;
+	}
+	.slider_button2{
+		right: -25px;
+	}
+	/*slider end*/
+	/*collection section start*/
+	.collection{
+		padding: 30px 0;
+	}
+	.watch {
+    	margin-bottom: 20px;
+	}
+	.bag {
+    	margin-bottom: 20px;
+	}
+	/*collection section end*/
+	/*shoes-item section start*/
+	.c_card {
+    	margin: 10px 0;
+	}
+	/*shoes-item section end*/
+	/*contact section start*/
+	.email_field {
+    	width: 100%;
+    	margin: 15px 0; 
+	}
+	/*contact section end*/
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header start*/
+	.b_outline:focus{
+		outline: none;
+	}
+	.menu{
+		text-align: right;
+	}
+	/*header end*/
+	/*slider start*/
+	.s_t_content {
+    	text-align: center;
+	}
+		.slider_button{
+		left: -40px;
+	}
+	.slider_button2{
+		right: -40px;
+	}
+	/*slider end*/
+	/*collection section start*/
+	.shoes {
+    	margin-top: 20px;
+	}
+	/*collection section end*/
+	/*contact section start*/
+	.email_field {
+    	width: 215px;
+	}
+	/*contact section end*/
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*contact section start*/
+	.email_field {
+    	width: 295px;
+	}
+	/*contact section end*/
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
